@@ -6,10 +6,8 @@ import PackageDescription
 let package = Package(
     name: "WrappingStack",
     platforms: [
-        .iOS(.v9),
-        .watchOS(.v6),
-        .tvOS(.v13),
-        .macOS(.v10_10)
+        .iOS(.v13),
+        .watchOS(.v7)
     ],
     products: [
         .library(
